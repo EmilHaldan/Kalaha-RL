@@ -7,3 +7,5 @@ RL_Bot.py converts the Board class into a gym environment which is used by some 
 All parameters are almost certainly sub optimal. Pull-requests for better model configurations are welcome.
 
 Man_vs_Machine.py loads a trained model, and lets a human play against the first and only trained model.
+
+The model is not very good and often makes moves which are suboptimal. This is most likely due to the reward function only considering points gained per turn.
